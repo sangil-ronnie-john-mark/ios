@@ -164,7 +164,6 @@ class _AccountState extends State<Account> {
               onTap: (){
                 showCupertinoDialog(context: context, builder: (context){
                   return GlassDialog(
-
                       title: 'Username',
                       content: GlassTextField(
                         placeholder: 'Hi',
